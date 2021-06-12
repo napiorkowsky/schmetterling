@@ -1,6 +1,6 @@
 # schmetterling
 
-This script will help you to create hash sets of naked pictures is selected folder.
+This script will help you to create hash sets of naked pictures in selected folder.
 
 ## Description
 
