@@ -38,5 +38,5 @@ This script will help you to create hash sets of naked pictures in selected fold
 ### Executing program
 
 ```
-skrypt.py <directory> [-list] [-nudity] [-nude] [-nudenet]
+schmetterling.py <directory> [-list] [-nudity] [-nude] [-nudenet]
 ```
