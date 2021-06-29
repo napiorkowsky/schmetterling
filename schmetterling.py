@@ -58,7 +58,6 @@ def main():
                     if os.path.isdir(argv[0]):
                         # list of all files in given directory
                         file_list = list()
-                        print(banner)
                         print(f"[+] Analysing \"{argv[0]}\"")
                         # loop will follow each directory recursively and add each file with full path to file_list
                         for dir_path, dir_names, file_names in os.walk(argv[0]):
