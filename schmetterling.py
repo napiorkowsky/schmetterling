@@ -232,7 +232,7 @@ def main():
                                 # report creation
                                 if hits_nudenet > 0:
                                     # create unique filename for hash set
-                                    nudenet_file = "".join((argv[0]," -nudenet ",str(now),".hsh")).replace("/"," ").replace("\\"," ")
+                                    nudenet_file = "".join((argv[0]," -nudenet ",str(now),".hsh")).replace("/"," ").replace("\\"," ").lstrip().rstrip()
                                     f = open(nudenet_file, mode='w')                         
                                     # add first line to describe hash types, it's required by X-Ways
                                     if hashset_type == "xways":
