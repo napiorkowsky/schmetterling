@@ -127,7 +127,7 @@ def main():
                                 # report creation
                                 if hits_nudity > 0:
                                     # create unique filename for hash set 
-                                    nudity_file = "".join((argv[0]," -nudity ",str(now),".txt")).replace("/","").replace("\\","")
+                                    nudity_file = "".join((argv[0]," -nudity ",str(now),".hsh")).replace("/","").replace("\\","")
                                     f = open(nudity_file, mode='w')                         
                                     # add first line to describe hash types, it's required by X-Ways
                                     if hashset_type == "xways":
@@ -174,7 +174,7 @@ def main():
                                 # report creation
                                 if hits_nude > 0:
                                     # create unique filename for hash set
-                                    nude_file = "".join((argv[0]," -nude ",str(now),".txt")).replace("/","").replace("\\","")
+                                    nude_file = "".join((argv[0]," -nude ",str(now),".hsh")).replace("/","").replace("\\","")
                                     f = open(nude_file, mode='w')                         
                                     # add first line to describe hash types, it's required by X-Ways
                                     if hashset_type == "xways":
@@ -232,7 +232,7 @@ def main():
                                 # report creation
                                 if hits_nudenet > 0:
                                     # create unique filename for hash set
-                                    nudenet_file = "".join((argv[0]," -nudenet ",str(now),".txt")).replace("/"," ").replace("\\"," ")
+                                    nudenet_file = "".join((argv[0]," -nudenet ",str(now),".hsh")).replace("/"," ").replace("\\"," ")
                                     f = open(nudenet_file, mode='w')                         
                                     # add first line to describe hash types, it's required by X-Ways
                                     if hashset_type == "xways":
